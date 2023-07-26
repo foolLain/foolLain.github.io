@@ -3,10 +3,10 @@
 
 title: Yang Shu
 description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
+  A page of me.
 baseurl: "" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpg
+url: "https://foolLain.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/makima.jpg
 google_analytics: "UA-121636368-3"
 
 header:
@@ -20,11 +20,9 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      value: foollain@qq.com
+      link: mailto:foollain@qq.com
+
   follow:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
@@ -34,7 +32,7 @@ footer:
     - name: LinkedIn
       link: http://linkedin.com/in/YourLinkedInUsername
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://github.com/foollain
     - name: Dribbble
       link: https://dribbble.com/YourDribbbleUsername
     - name: RSS

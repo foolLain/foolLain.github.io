@@ -25,8 +25,9 @@ footer:
 
   follow:
     - name: keybase
+      value: Zhejiang University
       link: https://www.zju.edu.cn/
-      value:Zhejiang University
+      
     - name: GitHub
       link: http://github.com/foollain
 

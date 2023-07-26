@@ -24,13 +24,13 @@ footer:
       link: mailto:foollain@qq.com
 
   follow:
-    - name: Zhejiang University
+    - name: keybase
       link: https://www.zju.edu.cn/
+      value:Zhejiang University
     - name: GitHub
       link: http://github.com/foollain
 
-    - name: RSS
-      link: /feed.xml
+
 
 # Build settings
 markdown: kramdown

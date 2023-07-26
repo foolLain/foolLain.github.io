@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Blog
+title: TimeLine
 slug: /blog
 ---
 
-This is an example of a "Blog" page, displaying a list of posts.
+This is a timeline page, displaying a list of posts.
 <br />

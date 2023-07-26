@@ -10,6 +10,6 @@ profile_picture:
 </p>
 
 <p>
- Before that, I obtained my Bachelor degree in Software Engineering from <a href =https://www.ustb.edu.cn/ > USTB </a>.
+ Before that, I obtained my Bachelor degree in Artificial Intelligence from <a href =https://www.ustb.edu.cn/ > USTB </a>.
 
 </p>

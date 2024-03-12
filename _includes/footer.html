@@ -33,14 +33,17 @@
           {% for follow in site.footer.follow %}
             <div class="social-link">
 
-              {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
-            
-              {% assign icon_exists = follow_icon_path | link %}
-              {% if icon_exists != '' %}
-                <img src="{{ follow_icon_path }}" alt="{{ follow.name | downcase }}"/>
-              {% else %}
+
+
+              {% assign icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url | link %}
+              {% if icon_path != empty and icon_path != "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
+                <img src="{{ icon_path }}" alt="{{ follow.name | downcase }}"/>
+              {% elsif icon_path == empty %}
                 <img src="/assets/img/icons/keybase.png" alt="{{ follow.name | downcase }}"/>
+              {% else %}
+                <img src="{{ "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url }}" alt="{{ follow.name | downcase }}"/>
               {% endif %}
+              
               <a href="{{ follow.link }}">
                 {% if follow.value and follow.value != "" and follow.value != nil %}
                   {{ follow.value }}

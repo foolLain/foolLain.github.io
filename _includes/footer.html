@@ -36,10 +36,13 @@
             <div class="social-link">
 
               {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
-              <img
-                src="{{ follow_icon_path }}"
-                alt="{{ follow.name | downcase }}"
-              />
+            
+              {% assign icon_exists = contact_icon_path | link %}
+              {% if icon_exists == true %}
+                <img src="{{ contact_icon_path }}" alt="{{ contact.name | downcase }}"/>
+              {% else %}
+                <img src="/assets/img/icons/keybase.png" alt="{{ contact.name | downcase }}"/>
+              {% endif %}
               <a href="{{ follow.link }}">
                 {% if follow.value and follow.value != "" and follow.value != nil %}
                   {{ follow.value }}

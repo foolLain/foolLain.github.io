@@ -20,8 +20,8 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: foollain@qq.com
-      link: mailto:foollain@qq.com
+      value: foollain@zju.com
+      link: mailto:foollain@zju.com
 
   follow:
     - name: keybase
@@ -31,6 +31,15 @@ footer:
     - name: GitHub
       link: http://github.com/foollain
 
+    - name: Zeqing Wang@sysu
+      link: https://www.naptmn.cn/
+
+    - name: Jialiang Wang@hit
+      link: https://jialiang-wang2002.github.io/
+
+    - name: Shuang Liang@whu
+      link: https://whusliang.com/
+      
 
 
 # Build settings

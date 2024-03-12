@@ -24,10 +24,6 @@ footer:
       link: mailto:foollain@zju.com
 
   follow:
-    - name: keybase
-      value: ZJU
-      link: https://www.zju.edu.cn/
-      
     - name: github
       value: GitHub
       link: http://github.com/foollain

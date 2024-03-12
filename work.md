@@ -3,7 +3,7 @@ layout: work
 title: Work
 slug: /work
 items:
----
+
   - title: SDiT:Spiking diffusion model with transformer
     image:
       src: /assets/img/work/SDiT.png

@@ -8,7 +8,7 @@ items:
       src: /assets/img/work/SDiT.png
       alt: sdit
     description: A novel spiking neural network with diffusion transformer.[arXiv](https://arxiv.org/abs/2402.11588)
-
+---
 
 some inferior work.
 <br />

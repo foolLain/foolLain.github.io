@@ -29,17 +29,20 @@ footer:
       link: http://github.com/foollain
 
     - name: keybase
-      value: Zeqing Wang@sysu
+      value: Z. Wang@SYSU
       link: https://www.naptmn.cn/
 
     - name: keybase
-      value: Jialiang Wang@hit
+      value: J. Wang@HIT
       link: https://jialiang-wang2002.github.io/
 
     - name: keybase
-      value: Shuang Liang@whu
+      value: S. Liang@WHU
       link: https://whusliang.com/
       
+    - name: keybase
+      value: S. Zhang@UIUC
+      link: https://seanzh30.github.io/ 
 
 
 # Build settings

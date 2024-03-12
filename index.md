@@ -11,7 +11,7 @@ profile_picture:
   
   <h2>Education experience</h2>
   <p>
-     Now, I'm a graduate student in <a href="https://zjui.intl.zju.edu.cn/">ZJU-UIUC INSTITUTE</a> , <a href="https://www.zju.edu.cn/">Zhejiang University</a>.
+     Now, I'm a graduate student in <a href="https://zjui.intl.zju.edu.cn/">ZJU-UIUC Institute</a> , <a href="https://www.zju.edu.cn/">Zhejiang University</a>.
   </p>
   <p>
    Before that, I obtained my Bachelor degree in Artificial Intelligence from <a href ="https://www.ustb.edu.cn/" > USTB </a>.

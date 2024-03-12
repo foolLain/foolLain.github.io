@@ -28,7 +28,8 @@ footer:
       value: ZJU
       link: https://www.zju.edu.cn/
       
-    - name: GitHub
+    - name: github
+      value: GitHub
       link: http://github.com/foollain
 
     - name: Zeqing Wang@sysu

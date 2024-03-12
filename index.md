@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/makima.jpg
+  src: /assets/img/asa.png
   alt: website picture
 ---
 

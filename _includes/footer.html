@@ -36,7 +36,7 @@
               {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
             
               {% assign icon_exists = follow_icon_path | link %}
-              {% if icon_exists == true %}
+              {% if icon_exists != '' %}
                 <img src="{{ follow_icon_path }}" alt="{{ follow.name | downcase }}"/>
               {% else %}
                 <img src="/assets/img/icons/keybase.png" alt="{{ follow.name | downcase }}"/>

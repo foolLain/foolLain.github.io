@@ -10,11 +10,9 @@
 
               {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
               {% assign icon_exists = contact_icon_path | link %}
-              {% if icon_exists == true %}
+   
                 <img src="{{ contact_icon_path }}" alt="{{ contact.name | downcase }}"/>
-              {% else %}
-                <img src="/assets/img/icons/keybase.png" alt="{{ contact.name | downcase }}"/>
-              {% endif %}
+    
               <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
                 {% if contact.value and contact.value != "" and contact.value != nil %}
                   {{ contact.value }}

@@ -20,13 +20,13 @@ profile_picture:
   <h2>Skills</h2>
   <ul>
     <li>
-        Research area: Deep Learning, Neuromorphic Computing
+        Research area: Spiking Neural Networks, Deep Learning, Neuromorphic Computing
     </li>
     <li>
-        Code: Python >> C == C++ == Java
+        Code: Python >> C == C++ == Java == TypeScript
     </li>
     <li>
-        Framework: Pytorch, Spikingjelly, React(still learning)
+        Framework: Pytorch, Spikingjelly, Vue3
     </li>
     <li>
         OS: Linux
